@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #0b0423;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.leftDiv,.rightDiv{
+    border: 2px dashed white;
+    min-height: 400px;
+    width: 300px;
+    padding: 0.5% 1%;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    cursor: grab;
+}
+
+.listItem{
+    background-color: #e91e63;
+    color: white;
+    padding: 4% 0;
+    text-align: center;
+    border: 1px solid black;
+}

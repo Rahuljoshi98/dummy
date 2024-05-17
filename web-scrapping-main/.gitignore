@@ -1,0 +1,6 @@
+*.xlsx
+/node_modules
+/package-lock.json
+/Riyadh.json
+/package-lock.json
+*.env

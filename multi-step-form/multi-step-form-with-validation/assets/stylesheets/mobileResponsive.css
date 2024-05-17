@@ -1,0 +1,33 @@
+@media (max-width:600px) {
+    .backgroundContainer{
+        display: none;
+    }
+
+    .videoContainer{
+        display: none;
+    }
+
+    .mainContent{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .mainContentLeft,.mainContentRight{
+        width: 100%;
+    }
+
+    .mainContentRight{
+        height: 100%;
+        overflow-y: visible;
+        max-height: none;
+    }
+
+    .formAndInfoContainer{
+        flex-direction: column;
+    }
+
+    .errorMessage{
+        height: 40px;
+    }
+}
